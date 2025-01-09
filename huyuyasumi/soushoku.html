@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>草食動物</title>
+    <style>
+        body {
+            background-color: #8bc34a;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            color: #000;
+        }
+        .header {
+            padding: 10px;
+            background-color: #a5d6a7;
+            padding: 10px;
+            font-size: 36px;
+            font-weight: bold;
+        }
+        .images {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .images img {
+            width: 200px;
+            height: auto;
+            border-radius: 15px;
+        }
+        .images img:hover { transform: rotate(20deg); }
+        .button {
+            background-color: #388e3c;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+            text-decoration: none;
+            color: #fff;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 16px;
+        }
+        .breadcrumb {
+            margin: 10px 0;
+            font-size: 14px;
+        }
+        .breadcrumb a {
+            color: #000;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">草食動物</div>
+    <div class="breadcrumb">
+        <a href="index.html">トップページ</a> ➔ <a href="konchu.html">昆虫エリア</a> ➔ <a href="nikushoku.html">肉食動物</a> ➔ 草食動物
+    </div>
+    <div class="images">
+        <img src="img/bird.jpg" alt="Water Animal">
+        <img src="img/sai.jpg" alt="Land Animal">
+        <img src="img/kirin.jpg" alt="Person with Herbivores">
+    </div>
+    <a href="index.html" class="button">トップページへ</a>
+</body>
+</html>

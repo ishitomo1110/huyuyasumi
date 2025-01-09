@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAMAZOO</title>
+    <style>
+        body {
+            background-color: #64dd17;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            color: #000;
+        }
+        .header {
+            padding: 10px;
+            font-size: 36px;
+            font-weight: bold;
+            background-color: #ff6d00;
+            color: #fff;
+        }
+        .images {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .images img {
+            width: 200px;
+            height: auto;
+            border-radius: 15px;
+        }
+        .images img:hover { transform: rotate(20deg);
+        }
+        .button {
+            background-color: #d50000;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+            text-decoration: none;
+            color: #fff;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 16px;
+        }
+        .breadcrumb {
+            margin: 10px 0;
+            font-size: 14px;
+        }
+        .breadcrumb a {
+            color: #000;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">TAMAZOO</div>
+    <div class="breadcrumb">
+        <a href="index.html">トップページ</a>
+    </div>
+    <div class="images">
+        <img src="img/batta.jpg" alt="Metallic Insect Sculpture">
+        <img src="img/washi.jpg" alt="washi">
+        <img src="img/rion.jpg" alt="Lion Resting">
+    </div>
+    <a href="konchu.html" class="button">昆虫エリアへ</a>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>昆虫エリア</title>
+    <style>
+        body {
+            background-color: #ffeb3b;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            color: #000;
+        }
+        .header {
+            padding: 10px;
+            font-size: 36px;
+            font-weight: bold;
+            background-color: #64dd17;
+            color: #fff;
+        }
+        .images {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .images img {
+            width: 200px;
+            height: auto;
+            border-radius: 15px;
+        }
+        .images img:hover { transform: rotate(20deg); }
+        .button {
+            background-color: #64dd17;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+            text-decoration: none;
+            color: #fff;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 16px;
+        }
+        .breadcrumb {
+            margin: 10px 0;
+            font-size: 14px;
+        }
+        .breadcrumb a {
+            color: #000;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">昆虫エリア</div>
+    <div class="breadcrumb">
+        <a href="index.html">トップページ</a> ➔ 昆虫エリア
+    </div>
+    <div class="images">
+        <img src="img/batta.jpg" alt="Metallic Insect Sculpture">
+        <img src="img/choucho.jpg" alt="Leaf Insect">
+        <img src="img/choucho (2).jpg" alt="Butterfly">
+    </div>
+    <a href="nikushoku.html" class="button">肉食動物へ</a>
+</body>
+</html>

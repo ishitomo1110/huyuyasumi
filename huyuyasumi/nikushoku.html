@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>肉食動物</title>
+    <style>
+        body {
+            background-color: #ff6f6f;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            color: #000;
+        }
+        .header {
+            padding: 10px;
+            background-color: #b2ff59;
+            padding: 10px;
+            font-size: 36px;
+            font-weight: bold;
+        }
+        .images {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .images img {
+            width: 200px;
+            height: auto;
+            border-radius: 15px;
+        }
+        .images img:hover { transform: rotate(20deg); }
+        .button {
+            background-color: #69f0ae;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+            text-decoration: none;
+            color: #000;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 16px;
+        }
+        .breadcrumb {
+            margin: 10px 0;
+            font-size: 14px;
+        }
+        .breadcrumb a {
+            color: #000;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">肉食動物</div>
+    <div class="breadcrumb">
+        <a href="index.html">トップページ</a> ➔ <a href="konchu.html">昆虫エリア</a> ➔ 肉食動物
+    </div>
+    <div class="images">
+        <img src="img/chi-ta-.jpg" alt="Animal 1">
+        <img src="img/washi.jpg" alt="Animal 2">
+        <img src="img/rion.jpg" alt="Lion Resting">
+    </div>
+    <a href="soushoku.html" class="button">草食動物へ</a>
+</body>
+</html>
